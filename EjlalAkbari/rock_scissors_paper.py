@@ -51,8 +51,6 @@ while True:
                             or not inp.lower() == 'paper' and not inp.lower() == 's' or \
                             not inp.lower() == 'scissors':
                         print('you have entered wrong entry!')
-                    while True:
-
 
     elif inp.lower() == 'n':
         print('goodbye')
