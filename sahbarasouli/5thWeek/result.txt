@@ -1,0 +1,3 @@
+Code	AED	AFN	ALL	AMD	
+Symbol	ط¯.ط¥	ط‹	L	AMD	
+Name	United Arab Emirates	Afghan afghani	Albanian lek	Armenian dram	
