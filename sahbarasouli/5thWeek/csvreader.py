@@ -19,3 +19,8 @@ with  open ('D:\Sahbaa\MyDataSience\python\Dayche\ 18th-Group\sahbarasouli\ 5thW
     handFile.writelines(symboll)
     handFile.writelines('\n')
     handFile.writelines(name)
+
+
+
+# import os
+# import pathlib
