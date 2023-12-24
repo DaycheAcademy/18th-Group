@@ -11,3 +11,8 @@ while True:
             inp=input('enter again')
             break
 
+
+
+# isnumeric
+# isdigit
+# isdecimal
