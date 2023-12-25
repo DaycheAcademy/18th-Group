@@ -1,0 +1,5 @@
+Code,Symbol,Name
+AED,ط¯.ط¥,United Arab Emirates
+AFN,ط‹,Afghan afghani
+ALL,L,Albanian lek
+AMD,AMD,Armenian dram
