@@ -1,10 +1,10 @@
 import turtle as clock
 import time
 
-clock.hideturtle()
 clock.speed(0)
 clock.bgcolor("black")
-clock.color("white")
+clock.color("medium sea green")
+clock.hideturtle()
 
 
 def update_time():
