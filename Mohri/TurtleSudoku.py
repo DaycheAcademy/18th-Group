@@ -56,7 +56,7 @@ def is_valid(board, ro, co, num):
 
     return True
 
-
+# number of execution: 9*9*81*18 ---> need to be O(1)
 def solve_sudoku(board):
     for i1 in range(9):
         for j1 in range(9):
