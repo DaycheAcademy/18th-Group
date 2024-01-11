@@ -85,4 +85,4 @@ print('=' * 40)
 for v in sampleDict.values():  # complexity ejra: O(N^2)
     print(v)
 
-# estefade az halghe dovom baraye gereftan value haye dictionary kheili sari tar hast
+# estefade az halghe dovom baraye gereftan value haye dictionary kheili sari tar hast nesbat be halgheye sevom

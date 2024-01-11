@@ -16,7 +16,7 @@ print(1, 2, 3)
 print((1, 2, 3))  # baraye jaii ke agar parantez nazarim eshtebahan nemifahmad ke manzoor ma tuple hast mizarim
 
 # dar mored list ha tarjihman in bud ke tanha az yek noe data type ra gharar dahim, dar morede tuple tosie shode ke
-# agar data type ha mokhtalef hastan az tuple estefade konim, mutable hast va taghir nemikonad va method hayi mesle
+# agar data type ha mokhtalef hastan az tuple estefade konim, immutable hast va taghir nemikonad va method hayi mesle
 # sort o append nadarad, hata assign meghdar ham be aza nadarad chera ke gheyre ghabele taghir ast
 
 # sampleTuple[0] = 10 -> in support nemishavad chon immutable ast
