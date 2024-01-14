@@ -1,7 +1,9 @@
-def float_range(start, stop):
+
+# mehdi shokri: added step
+def float_range(start, stop, step):
     while start < stop:
         yield start
-        start += 0.01
+        start += step
 
 
 def letter_range(start, stop, step=2):
