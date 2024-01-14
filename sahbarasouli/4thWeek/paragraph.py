@@ -20,7 +20,7 @@ tobeSet={'am','is','are','re','m','be','was','were','Are','Is','Am'}
 dict={'am':0,'is':0,'are':0,'re':0,'m':0 ,'be':0 ,'was':0,'were':0,'Are':0,'Is':0,'Am':0}
 
 for i in ((totalWord)):
-    if tobeSet.__contains__(i):
+    if i in tobeSet:
         numberOfTobe+=1
         if(dict.get(i) != None):
             dict.update({i:dict.get(i)+1})
