@@ -8,22 +8,19 @@ def setChecker(i,j):
     result=set()
     myChoice={1,2,3,4,5,6,7,8,9}
     squareSet=set()
-
-    for mover1 in range(9): 
-            rowSet.add(finalList[i][mover1])
-    rowSet.remove(finalList[i][j])
+ 
+    rowSet.update(finalList[i])
 
     for mover2 in range(9): 
-            colSet.add(finalList[mover2][j])
-    colSet.remove(finalList[i][j])
+        colSet.add(finalList[mover2][j])
 
     for r in range((i//3)*3,((i//3)+1)*3):
         for c in range((j//3)*3,((j//3)+1)*3):
                 squareSet.add(finalList[r][c])
 
     result=((myChoice-rowSet)-colSet)-squareSet
-    x=sorted(result, key=lambda x: random.random())
-    mydict={(i,j):x}
+    r=sorted(result, key=lambda x: random.random())
+    mydict={(i,j):r}
     return mydict
 
 #Function(2):solving sufoku by using Function(1) and 2 global varriables instead of for :
@@ -98,7 +95,7 @@ if __name__ =='__main__' :
     for row in  range (0,9):
         for col in range (0,9):
             mySudoku.goto(-195+col*50,195-row*50)
-            mySudoku.write(finalList[row][col])
+            mySudoku.write(finalList[row][col],font=("Arial", 10, "bold"))
 
     turtle.done()
 
