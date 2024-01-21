@@ -1,6 +1,7 @@
 import turtle as clock
 import time
 
+clock.tracer(0)
 clock.speed(0)
 clock.bgcolor("black")
 clock.color("medium sea green")
